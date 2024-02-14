@@ -1,0 +1,42 @@
+#title {  
+  background-color: #e4e2e2;
+}
+#title .wrap {
+  height: 100%;
+  max-width: 100%;
+}
+#title .wrap .witem {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+#title .wrap .witem:not(:first-child) {
+  display: none;
+}
+#title .wrap .witem1  {  
+  background-image: url(../img/title.jpg);
+  color: #FFFBF6;
+}
+#title .wrap .witem2 {
+  
+}
+#title .wrap .witem3 {
+  
+}
+#title .wrap h2 {
+  order: 1;
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  transform: translate(520px, 100px);
+  line-height: 1.3;
+}
+#title .wrap h2 span{
+  /*! display: none; */
+}
+#title .wrap p {
+  order: 2;
+  font-size: 25px;
+  font-weight: bold;
+  transform: translate(520px, 100px);
+}

@@ -1,0 +1,193 @@
+@media screen and (max-width:360px) {
+  body{
+    overflow-x: hidden;
+  }
+  .vh100{
+    min-height: auto;
+  }
+  .h3{    
+   font-size: calc(40px * 0.7);
+  }
+  .h5{    
+   font-size: calc(18px * 0.8);
+  }
+  .p{    
+    font-size: calc(16px * 0.8);
+  }
+  header .wrap{    
+    height: 60px;
+  }
+  header .wrap h1{    
+    margin-right: 125px;
+    padding-left: 10px;
+  }
+  header .wrap h1 a{    
+    width: 150px;
+    height: 25px;
+  }
+  header .wrap ul.gnb{    
+   display: none;
+  }
+  header .wrap span.lang a{    
+   display: none;
+  }
+  header .wrap div a.ham{    
+    padding: 0 15px;
+    text-align: center;
+  }
+
+/*  타이틀  */
+  #title{    
+    min-height: auto;
+  } 
+  #title .wrap .witem{    
+    padding: 0 15px;
+    text-align: center;
+  }
+  #title .wrap h2{    
+    transform: none;
+    font-size: 45px;
+  }
+  #title .wrap p{    
+    transform: none;
+    font-size: 14px;
+  }
+  #title .wrap h2 span{    
+    display: block;
+  }
+  /* 비디오 */
+  section#promotion .wrap h2{    
+    font-size: initial;
+  }
+  section#promotion .wrap video{    
+    width: calc(100vw - 30px);
+    height: 54vw;
+  }
+  /*  main  */
+   main .wrap{    
+    padding: 0 15px;
+  }
+/*  비지니스  */
+  section#business .wrap{
+    
+  display: flex;
+  }
+  section#business .wrap h2{    
+   font-size: initial;
+  }
+  section#business .wrap ul{    
+   display: flex;
+   margin: 0;
+   gap: 50px;
+  }
+  section#business .wrap ul li{    
+    width: initial;
+  }
+  section#business .wrap ul li a{    
+    perspective: initial;
+  }
+  section#business .wrap ul li a::before{    
+    width: calc(100vw - 100px);
+    height: calc(72.5vw - 100px);
+  }
+
+  
+/*  products  */
+  section#products{    
+    padding: 0 15px;
+  }
+  section#products .wrap{
+    padding: 0;
+  }
+  section#products .wrap h2{    
+    font-size: initial;
+    padding-top: 20px;
+  }
+  section#products .wrap div ul{    
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+  section#products .wrap div
+    section#products .wrap div ul li a figure{    
+    width: calc((100vw / 2) - 15px);
+    height: calc(62.5vw / 2);
+  }
+  section#products .wrap div ul li a figure img{    
+    width: calc((100vw / 2) - 30px);
+    height: calc((69.4vw / 2) - 30px);
+  }
+  section#products .wrap div ul li a figure figcaption{    
+    font-size: 8px;
+  }
+  
+/*  news  */
+  section#news .wrap{
+    
+  box-sizing: border-box;
+  }
+  section#news .wrap h2{    
+    font-size: initial;
+  }
+  section#news .wrap ul li:nth-child(2){    
+    display: none;
+  }
+  section#news .wrap ul li:nth-child(3){    
+    display: none;
+  }
+  section#news .wrap ul li:nth-child(4){    
+    display: none;
+  }
+  section#news .wrap ul li{    
+    width: calc(100vw - 30px);
+  }
+  section#news .wrap ul li img{
+    
+  }
+  
+/* aside  */
+  aside{    
+    display: none;
+  }
+  
+/* footer  */
+  footer .wrap{    
+    padding: 0 15px 20px;
+    position: relative;
+  }
+  footer .wrap ul.pnb{    
+    transform: initial;
+  }  
+  footer .wrap ul.pnb li:first-child a{
+    padding: 1px;
+  }
+  footer .wrap ul.pnb li:not(:first-child) a{
+    padding: 1px;
+  }
+  footer .wrap ul.pnb li a{    
+    font-size: 10px;
+  }
+  footer .wrap div ul.fnb{    
+    display: none;
+  }
+  footer .wrap div select{    
+    position: absolute;
+    top: 9px;
+    right: 15px;
+  }
+  footer .wrap address{    
+    font-size: 12px;
+  }
+  footer .wrap address::before{    
+    display: none;
+  }
+  
+  footer .wrap p{
+    font-size: 12px;
+}
+  footer .wrap a.blog{
+    display: none;
+  }
+
+}
